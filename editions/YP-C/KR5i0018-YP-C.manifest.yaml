@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0018/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0018/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 終南八祖說心印妙經解
+  date: '2015-08-29 17:49:07.132282'
+  source:
+    repository: kanripo
+    path: KR5i0018
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0018_001-YP-C.yaml, hash: 'sha256:0a1226936523353b18bf08e079d325d7e3d7233aecf7c2d134c49cfbf20b5ea2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0018_001-YP-C.markers.yaml, hash: 'sha256:8da795b8980fa213b853b64f5066b9a5cf0bf0264e4bb667258048457f584e14'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0018_07miji-09-0016a
+    span:
+    - body
+    - 0
+    - 410
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:d5a6f856cf08b0954ec4a6877a44efe78f3434c12b8a621446e35ea8b544f3f8
